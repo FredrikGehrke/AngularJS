@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demoApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+
+</head>
+<body>
+    
+    <!-- ELEMENT -->
+    <siteheader></siteheader>
+
+    <!-- ATTRIBUTE -->
+    <div siteheader></div>
+
+    <!-- CLASS -->
+    <div class="siteheader"></div>
+
+    <!-- COMMENT -->
+    <!--  directive: siteheader -->
+
+    <script>
+
+        let app = angular.module("demoApp", []); 
+
+        app.directive("siteheader", function() {
+            return {
+                // E = Element
+                // A = Attribute
+                // C = Class
+                // M = Comment
+                restrict: "EACM",
+                replace: true, 
+                template: "<h1>Min Header</h1>"
+            };
+        });
+
+    </script>
+
+</body>
+</html>

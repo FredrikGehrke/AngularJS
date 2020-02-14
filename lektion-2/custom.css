@@ -1,0 +1,196 @@
+/* CSS Google Font  */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700'); 
+/* CSS Google Font end  */
+
+/* Nollställer alla kanter */
+:root {
+    --ownPurple: #8f05c5;
+    --ownGray: #3d3d3d; 
+    --lightGray: #acacaca8;
+    --brandColor: rgb(184, 4, 4);  
+    --navbarColor: rgba(94, 93, 93, 0.356);
+    --orange: rgb(255, 102, 0);
+    --footerColor: rgba(0, 0, 0, 0.822);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 14px;
+}
+
+.bg-img1 {
+    background-image: url(/lektion-2/images/porsche.jpg);
+    text-align: center;
+    height: 90vh;
+}
+.logo {
+    background-image: url('/lektion-2/images/exoticLogo.png') !important;
+    background-size: cover;
+    width: 10%;
+    height:15vh;
+}
+
+/* START NAVBAR */
+
+.own-mt {
+    margin-top: 0;
+}
+
+.navbar {
+    background-color: var(--navbarColor) !important;
+}
+
+/* .navbar-blur { 
+    filter: blur(8px);
+} */
+
+.navbar-brand {
+    background-image: url(/lektion-2/images/exoticLogo.png) !important;
+    /* background-color: var(--brandColor);
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    color: #fafafa !important; */
+    margin-left: 10rem;  
+    margin-right: 12rem !important;
+}
+
+.navbar-brand:hover {
+    box-shadow: 2px 0px 15px -1px #f8f8f8;
+    border-radius: 5px;
+}
+
+.sok-icon {
+    color: var(--orange);
+    padding-right: 14rem;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    margin-right: 0.5rem;
+    font-weight: 800;
+    color: white !important;
+    letter-spacing: 0.05rem;
+}
+
+.nav-link:hover {
+    color: var(--orange) !important;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #f8f8f8 !important;
+    border: 1px solid var(--ownPurple) !important;
+    border-radius: 0.25rem;
+}
+
+
+/* END NAVBAR */
+
+/* START FIRST SECTION */
+.first-section {
+    margin-bottom: 0rem !important; 
+}
+
+.title {
+    color: red;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+}
+
+#first-grid {
+    margin-left: 12rem;
+    text-align: left;
+    padding-left: 2rem;
+    /* Gör text vit, ! orange. */
+}
+
+
+/* END FIRST SECTION */
+
+
+/* FOOTER */
+
+.row-7 {
+    margin-right: 0;
+    margin-left: 3rem !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.col {
+    margin-right: 2rem;
+    color: white;
+}
+
+.seventh-rubrik {
+    font-size: 16px;
+
+}
+
+.navbar-brand-footer {
+    background-image: url('/lektion-2/images/exoticLogo.png') !important;
+    background-size: cover;
+    width: 80%;
+    height:15vh;
+    margin-top: -1rem;
+}
+
+#logo-text {
+    font-weight: 700;
+    font-size: 16px;
+    padding-top:-2rem;
+    padding-left: 0.6rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: -0.5rem;
+}
+
+#logo-text p {
+    margin-bottom: 0;
+    margin-top: -0.2rem;
+}
+
+.seventh-p {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0;
+    letter-spacing: 0.05rem;
+    padding-top: 0.5rem;
+}
+
+.seventh-p p:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.own-jumbotron7 {
+    background-color: var(--footerColor);
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#copyright {
+    background-color: black;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* FOOTER */
+
+
+
+
